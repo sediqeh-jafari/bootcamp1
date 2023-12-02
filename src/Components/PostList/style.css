@@ -1,0 +1,36 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+
+body {
+    padding: 1rem;
+    font-family: sans-serif;
+}
+.PostList{
+
+}
+
+:root {
+    --custom_color:lightgray;
+}
+
+
+article {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    background:rgba(80, 80, 84, 0.904);
+    transition: 100ms;
+    box-shadow: 2px 2px 5px 2px #a6a6a6;
+    border-radius: 1rem;
+
+    &:hover {
+        background-color: var(--custom_color);
+        box-shadow: 2px 2px 5px 2px #a6a6a6;
+
+    }
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
